@@ -10,7 +10,7 @@ import { ICategory } from './models/category.interface'
 import { Category } from './category.entity'
 
 @Entity({
-  name: 'products',
+  name: 'product',
 })
 export class Product implements IProduct {
   @PrimaryGeneratedColumn('uuid', {
